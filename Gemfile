@@ -9,6 +9,8 @@ gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false # Reduces boot times through caching; required in config/boot.rb
 
 group :development, :test do
+  gem 'rspec-rails', '~> 4.0.1'
+  gem 'factory_bot_rails'
   gem 'pry-rails'
 end
 
